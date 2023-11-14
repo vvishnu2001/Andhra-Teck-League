@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EV-CHALLENGE</title>
+    <link href="./media1/TECK Png01.png" rel="icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+        crossorigin="anonymous"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3671809538623693"
+        crossorigin="anonymous"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .nav_bar {
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            height: 80px;
+            background-color: #fff;
+
+
+        }
+
+        .andhra-img {
+            width: auto;
+            height: 70px;
+        }
+
+        nav a.active {
+            border-bottom: 3px solid;
+            border-image: linear-gradient(to right, #E1E1E1, #939393, #474747, #939393, #E1E1E1) 1;
+            border-image-slice: 1;
+        }
+
+        nav .nav-link {
+            text-decoration: none;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 31.92px;
+            text-align: center;
+            color: rgba(13, 13, 13, 0.8);
+            margin: 1% 4.5%;
+        }
+
+        .navbar-nav {
+
+            width: 100%;
+        }
+
+        :root {
+            font-size: 10px;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+
+            background-color: #ffffff;
+        }
+
+        .EV-CHALLENGE {
+            width: 90%;
+            margin: 0% auto;
+            margin-top: 5%;
+            height: auto;
+            background-color: #FFF;
+
+
+        }
+
+
+        .card-designer {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            padding: 2%;
+            width: 100%;
+            height: auto;
+            flex-shrink: 0;
+            border-radius: 20px;
+            background: #FFF;
+            
+            box-shadow: 0px 0px 20px 5px rgba(217, 217, 217, 0.80);
+        }
+
+        .container {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            padding: 1%;
+            justify-content: space-between;
+            
+            
+
+        }
+
+        .card-files {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            
+            
+        }
+
+        .card-files1 {
+            width: 40%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .card-designer span {
+            position: relative;
+            color: rgba(13, 13, 13, 0.80);
+            font-family: Segoe UI;
+            font-size: 38px;
+            margin-top: 6%;
+            font-weight: 650;
+            
+        }
+
+        .card-designer img {
+            position: relative;
+            width: 212px;
+            height: 100px;
+
+
+        }
+
+        .card-designer p {
+            color: #000;
+            font-family: Segoe UI;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            padding: 2%;
+            text-align: justify;
+
+        }
+
+        .files {
+
+            width: 200px;
+            text-align: center;
+            height: 75px;
+            margin: 1% 2.5%;
+            display: flex;
+            padding: 1%;
+            align-items: center;
+            justify-content: space-evenly;
+            border-radius: 10px 10px 30px 10px;
+            background: linear-gradient(95deg, #3CB372 60.21%, #18A185 95.85%);
+            box-shadow: 0px 0px 20px 5px rgba(217, 217, 217, 0.80);
+
+        }
+
+        .files p {
+            width: 210px;
+            color: #FFF;
+            text-align: center;
+            font-family: Segoe UI;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            padding: 1%;
+
+        }
+
+        .files a {
+            margin-top: 10%;
+        }
+
+        button {
+            border-radius: 50%;
+            height: 40px;
+            width: 40px;
+            color: #0798E5;
+            background-color: #FFF;
+            border: none;
+        }
+
+        .ps {
+            width: 100%;
+            margin: 5% auto;
+            height: auto;
+            padding: 3%;
+            border-radius: 20px;
+            background: #FFF;
+            box-shadow: 0px 0px 20px 5px rgba(217, 217, 217, 0.80);
+            font-family: Segoe UI;
+            line-height: 1.7;
+
+        }
+
+        h1 {
+            padding-bottom: 2%;
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        h2 {
+            text-decoration: underline;
+            padding: 1% 0%;
+            font-weight: 550;
+            font-size: 20px;
+        }
+
+        p {
+            padding-bottom: 1%;
+            font-size: 18px;
+            text-align: justify;
+        }
+
+        ol {
+            padding-left: 3.5%;
+            text-align: justify;
+            font-size: 18px;
+        }
+
+        ul{
+            padding-left: 3.5%;
+            text-align: justify;
+            font-size: 18px;
+        }
+
+        h3 {
+            padding: 1%;
+            font-weight: 600;
+            font-size: 19px;
+        }
+
+        .register,
+        .contact {
+            background-color: #0798e5;
+            text-align: center;
+
+            border-radius: 10px;
+            font-size: 16px;
+            color: #fff;
+            width: 150px;
+            margin: 2%;
+        }
+
+        #backToTopBtn {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 30px;
+            z-index: 99;
+            font-size: 23px;
+            border: 0.2px solid #555;
+            outline: none;
+            background-color: white;
+            color: black;
+            cursor: pointer;
+            width: 4rem;
+            height: 4rem;
+            border-radius: 50%;
+        }
+
+        #backToTopBtn:hover {
+            background-color: #0798e5;
+            color: white;
+            border: 0.2px solid white;
+        }
+
+        @media (max-width: 480px) {
+            .event7-img img {
+                width: 200px;
+                height: 130px;
+            }
+
+            .EV-CHALLENGE {
+                margin: auto 5%;
+            }
+
+        }
+    </style>
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-K16P2KEGF6"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-K16P2KEGF6');
+</script>
+
+
+<body>
+    <div class="nav_bar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="media1/main.jpeg" alt="andhratech league" class="andhra-img" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link " id="navItem1" href="./home.html">
+                            ABOUT EVENT</a>
+                        <a class="nav-link active" href="./competitions.html" id="navItem2">COMPETITIONS</a>
+                        <a class="nav-link" href="./registration.html" id="navItem3">REGISTRATION</a>
+                        <a class="nav-link" href="./result.html" id="navItem5">RESULTS</a>
+                        <a class="nav-link" href="./contact.html" id="navItem4">CONTACT US</a>
+                    </div>
+                </div>
+                <a class="navbar-brand" href="https://teckteamsolutions.com/">
+                    <img src="media1/main2.jpeg" alt="andhratech league" class="andhra-img" />
+                </a>
+            </div>
+
+        </nav>
+    </div>
+    <div class="EV-CHALLENGE">
+        <div class="designer-container">
+            <div class="card-designer">
+                <div class="container">
+                    <div class="card-files">
+                        <img src="./media1/ev-img.png">
+                        <span>EV CHALLENGE</span>
+                    </div>
+                    <div class="card-files1">
+                        <div class="files">
+                            <p>Download Problem Statement (PDF)</p>
+                            <a href="./pdfs/HackAP EV Challenge- Rules.pdf" download>
+                                <button><i class="fas fa-download "></i> </button>
+                            </a>
+                        </div>
+
+                        <div class="files">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeFO1STcEdoQosrPbI1iOYaB3wojwH0ZR-jvCS9Wv_0gueVrw/viewform" target="_blank">
+                                <p>Register for EV Challenge</p>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <p>Get ready to revolutionize the future of transportation in our Electric Vehicle (EV) Competition!
+                    Unleash your engineering prowess
+                    and sustainability vision as you design and construct cutting-edge electric vehicles. Your mission
+                    is to create an EV that not only
+                    travels efficiently on a single charge but also showcases advancements in electric mobility and
+                    sustainable transportation. Whether
+                    you're passionate about aerodynamics, energy efficiency, or innovative technology, this competition
+                    challenges you to push the
+                    boundaries of what's possible in the EV industry. Join us in this exciting journey to shape the
+                    future of eco-friendly transportation. </p>
+
+            </div>
+
+        </div>
+
+        <div class="ps">
+            <h1>Problem Statement</h1>
+            <h2>Andhra Teck League:</h2>
+            <p><b>Teck Team Solutions,</b> established in 2014 in Visakhapatnam, Andhra Pradesh, is a renowned
+                training and product development firm specializing in Industry 4.0 technologies. Over the
+                years, we have made significant contributions to the field of technical education and
+                development. Our commitment to innovation and growth has led us to organize various
+                successful events in the past.
+
+            <p>In 2016, 2017, and 2018, we organized a highly acclaimed technical event called
+                <b>Mechatronics,</b> which provided a platform for students to showcase their skills and
+                knowledge in the field of various technologies. Building on our previous successes, in
+                2023, we are thrilled to introduce the upgraded version of our event, known as <b>Andhra
+                    Teck League (ATL).</b> The ATL event is specifically designed for students, aiming to inspire,
+                educate, and nurture their interest in emerging technologies.
+            </p>
+            <h2>Problem Statement:</h2>
+            <p>Design and construct an electric vehicle (EV) to showcase advancements in electric mobility,
+                energy efficiency, and sustainable transportation.</p>
+        <h3>Tasks that participants need to:</h3>
+        <ul>
+            <li>Build an EV that travels a set distance on a single charge while using energy efficiently.
+            </li>
+            <li>Create a vehicle that reaches a specific speed within a defined distance.
+            </li>
+            <li>Design the EV with innovation for better aerodynamics and energy use.</li>
+            <li>Include essential safety features like brakes and lights.
+            </li>
+            <li>Prepare a detailed report on the design process and present it.
+            </li>
+        </ul>
+
+        <h2>Event Details:</h2>
+            <p><b>- Type of Challenge: </b>Time and Endurance-based</p>
+            <p><b>- Eligibility:</b> Open to all engineering students</p>
+            <p><b>- Levels of Competition:</b> Single-level
+            </p>
+            <p><b>- Registrations close on 17th-SEP-2023 / Final qualifier results will be out on 20th-SEP-2023.
+                </b></p>
+            <p><b>- Event Date:</b> 1st- OCT- 2023 (9:00 AM to 3:00 PM).
+                </p>
+            <p><b>- Venue: ā hub</b> (Andhra University Incubation Hub Center), North Campus, Andhra
+                University, Visakhapatnam, Andhra Pradesh 530003.
+                <a href="https://goo.gl/maps/j5BRS5fAVymbdGBo8" target="_blank">(https://goo.gl/maps/j5BRS5fAVymbdGBo8)</a></p>    
+        
+        <h2>EV Challenge Description:</h2>   
+            <p><b>1. Electric Powered Vehicles:</b> The competition focuses on electric-powered vehicles that are
+                designed to be energy-efficient, environmentally friendly, and innovative in their design and
+                functionality.
+            </p>
+            <p><b>2. Vehicle Construction:</b> Each participating team is required to construct their electric
+                vehicles from scratch. Buying pre-built vehicles off the shelf is not allowed to encourage
+                innovation and creativity in vehicle design.</p>
+            <p><b>3. Judges' Pre-Qualification:</b> Judges will evaluate and pre-qualify the vehicles before the
+                challenge based on thorough inspections. This is to ensure that all vehicles adhere to the
+                rule of being built by the team.
+                </p> 
+            <p><b>4. Time and Distance Endurance Challenge:</b> The challenge consists of a time (10
+                minutes/Lap) and distance endurance race. Vehicles will carry a proportional payload during
+                the race, and the goal is to complete the race with optimal energy efficiency and
+                performance (one vehicle at a time on track).
+                </p>                   
+            <p><b>5. Closed Loop Road Race:</b> The race will take place on a predefined paved closed-loop road
+                near AU Incubation Hub. This provides a controlled environment for testing the vehicles'
+                capabilities and performance.
+                </p>
+            <p><b>6. Entry Classes:</b></p>
+            <p><b>- Autonomous or Remote Controlled: </b> Participants can choose between an autonomous
+                vehicle or a remote-controlled vehicle using wireless remote control technology.</p>
+            <p><b>- Payload Classes:</b> Vehicles will compete in different payload classes, including 50%, 100%,
+                and other specified weights relative to the vehicle's weight.
+                </p>
+            <p><b>- Vehicle Size Classes:</b> Refer to "Size of the EV" in Specification to build EV section.
+            </p> 
+            <p><b>- Arena Size:</b> Width of the arena will be 4 Feet and length may vary based on real time
+                scenario.</p>    
+
+        <h2>Specifications to Build EV:</h2>        
+            <ul>
+                <li><b>Payload:</b> Minimum 25 kg (For E2W) / Minimum 40 kg (For E3W)</li>
+                <li><b>Size of the EV:</b> : 1.5m (l) x 0.7m (w) x 1m (h) (E2W) / 2m (l) x 1m (w) x 1.2m (h) (E3W).</li>
+                <li><b>Weight of the EV:</b> 50 kg (E2W) / 75 kg (E3W) including the weight of the vehicle, motor,
+                    battery, and other components.</li>
+                <li><b>Battery Type:</b> Lithium-ion battery</li>
+                <li><b> Battery Capacity:</b> 48V, 20Ah</li>
+                <li><b>Motor Type:</b> Brushless DC (BLDC) motor</li>
+                <li><b>Motor Capacity:</b> 750W (E2W) / 1000W (E3W)</li>
+                <li><b>Controller:</b> Electronic speed controller (ESC) with wireless communication capability</li>
+            </ul>
+
+        <h2>Participation Eligibility:</h2>  
+            <p>1. Participation Team Size:<b> 3 to 5 members (no exceptions)</b></p>
+            <p>2. All team members can register with one primary contact number.</p>
+            <p>3. Initial registration is mandatory to participate in the event.</p>
+            <p>4. All participants should have an official ID Card from their respective institutions.</p>
+            <p>5. All team members should belong to the same institution.</p>
+            <p>6. Team members should be willing to participate in contests at outstation locations as per
+                the schedules.</p>
+        
+        <h2>Judging / Selection Criteria:</h2>
+            <p>1. Live demonstrations of energy efficiency and range.</p>
+            <p>2. Speed and performance showcased during on-site trials.</p>
+            <p>3. Innovations in design that enhance efficiency and aesthetics.</p>
+            <p>4. Adherence to safety standards and incorporation of safety features.</p>
+            <p>5. Quality of the live presentation delivered on the challenge day.</p>
+
+        <p><b>*Note:</b> The competition coordinator reserve the right to modify the rules and regulations if
+            necessary. They also reserve the right to disqualify any entry that violates the rules
+            or disrupts the competition.</p>
+        <h3 style="text-align: center" >EV ARENA PICTURE</h3>
+            <div style="text-align: center;" class="event7-img">
+            <img src="./media1/pdfimg/ev-pdf.png" width="450px" height="300px" >
+            </div>
+            <p><b>*Note:</b> The arena picture provided above serves as a reference and may undergo slight
+                modifications to align with the real-time scenario.</p>
+        <h2>Contact Us:</h2>
+            <p><a href="mailto:andhrateckleague@gmail.com">andhrateckleague@gmail.com</a></p>
+            <p><b>+91 7799911213 / +91 9885991430</b></p>
+        </div>
+    </div>
+    <button id="backToTopBtn" title="Back to Top">↑</button>
+    <iframe src="footer.html" width="100%" height="370px" frameBorder="0"></iframe>
+    <script>
+        window.onscroll = function () {
+            scrollFunction();
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("backToTopBtn").style.display = "block";
+            } else {
+                document.getElementById("backToTopBtn").style.display = "none";
+            }
+        }
+
+        document.getElementById("backToTopBtn").addEventListener("click", function () {
+            scrollToTop();
+        });
+
+        function scrollToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <script>
+        window.onscroll = function () {
+            scrollFunction();
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("backToTopBtn").style.display = "block";
+            } else {
+                document.getElementById("backToTopBtn").style.display = "none";
+            }
+        }
+
+        document.getElementById("backToTopBtn").addEventListener("click", function () {
+            scrollToTop();
+        });
+
+        function scrollToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+</body>
+
+
+</html>
